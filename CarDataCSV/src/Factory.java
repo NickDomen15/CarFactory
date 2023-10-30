@@ -62,9 +62,12 @@ public class Factory {
 	 * CarList to a CSV file "fileName" using the toString method
 	 * @param fileName
 	 */
+	/*
+	 * Code used from:
+	 * https://beginnersbook.com/2014/01/how-to-write-to-file-in-java-using-bufferedwriter/
+	 */
 	public void writeToCSV(String fileName) {
 		
-		// used https://beginnersbook.com/2014/01/how-to-write-to-file-in-java-using-bufferedwriter/
 		try {
 			
 			File file = new File(fileName);
@@ -98,9 +101,12 @@ public class Factory {
 	 * attributes and prints each of them
 	 * @param fileName
 	 */
+	/*
+	 * Code used from:
+	 * https://www.studytonight.com/java-examples/reading-a-csv-file-in-java#:~:text=Reading%20CSV%20Files%20by%20Using,the%20comma%20as%20a%20delimiter.
+	 */
 	public void readCSV(String fileName) {
 		
-		// used https://www.studytonight.com/java-examples/reading-a-csv-file-in-java#:~:text=Reading%20CSV%20Files%20by%20Using,the%20comma%20as%20a%20delimiter.
 		try {
 			
 			carList.clear();
